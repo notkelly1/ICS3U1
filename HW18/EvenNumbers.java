@@ -2,7 +2,8 @@
 
 "EvenNumbers"
    
-a program that continuously asks for a letter, and stops when a non-alphabet character is entered.  Then it outputs the number of upper case letters, lower case letters, and vowels entered.
+a program that continuously asks for an integer, and stops when a non-positive integer is entered.
+Then it outputs the number of even numbers entered.
 */
 import java.util.*;
 import java.lang.*;

@@ -2,7 +2,7 @@
 
 "SquareCube"
    
-a program that continuously asks for a letter, and stops when a non-alphabet character is entered.  Then it outputs the number of upper case letters, lower case letters, and vowels entered.
+a program that adds up the squares and adds up the cubes of integers from 1 to N, where N is entered by the user
 */
 import java.util.*;
 import java.lang.*;
@@ -12,8 +12,7 @@ public class SquareCube{
       int upperLimit;
       int sumSquares = 0;
       int sumCubes = 0;
-      //int userInput;
-      
+            
       // Create Scanner
       Scanner sc = new Scanner(System.in);
       

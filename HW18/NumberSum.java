@@ -2,7 +2,7 @@
 
 "NumberSum"
    
-a program that continuously asks for a letter, and stops when a non-alphabet character is entered.  Then it outputs the number of upper case letters, lower case letters, and vowels entered.
+a program that adds up integers that the user enters.
 */
 import java.util.*;
 import java.lang.*;
