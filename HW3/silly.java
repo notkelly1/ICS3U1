@@ -2,9 +2,12 @@ import java.util.*;
 public class silly
 {
    public static void main(String[] args){
-      for (int i = 8; i > 3; i = i - 1)
+      int counter;
+      counter = 0;
+      while(counter <= 100)
       {
-      System.out.println(i + 2);
+         System.out.println(counter);
+         counter = counter + 1;
       }
 
    }
