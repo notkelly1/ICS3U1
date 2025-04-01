@@ -3,7 +3,7 @@
 "EvenNumbers"
    
 a program that continuously asks for an integer, and stops when a non-positive integer is entered.
-Then it outputs the number of even numbers entered.
+Then it outputs the number of even numbers entered. //dowhile is better!!!!!!!!!!!!!!!!!!!!!!!!! because a) you don'have to set userinput
 */
 import java.util.*;
 import java.lang.*;

@@ -2,14 +2,14 @@ import java.util.*;
 public class silly
 {
    public static void main(String[] args){
-      int counter;
-      counter = 0;
-      while(counter <= 100)
+      final int SIZE = 5;
+      for (int i = 1; i < SIZE; i++) 
       {
-         System.out.println(counter);
-         counter = counter + 1;
+         for (int j = SIZE; j >= i; j--) 
+         {
+         System.out.println(i * 2 + j);
+         }
       }
-
    }
 }
       /*System.out.println(".\n\\\t.hhhh\n.\n."+"A");
