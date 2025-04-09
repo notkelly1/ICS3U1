@@ -2,13 +2,12 @@ import java.util.*;
 public class silly
 {
    public static void main(String[] args){
-      final int SIZE = 5;
-      for (int i = 1; i < SIZE; i++) 
-      {
-         for (int j = SIZE; j >= i; j--) 
-         {
-         System.out.println(i * 2 + j);
+      for (int j = 8; j > 2; j-=2) {
+      System.out.println(j + ":");
+         for (int k = 2; k <= j; k++) {
+         System.out.print(j+k);
          }
+         System.out.println();
       }
    }
 }

@@ -2,7 +2,7 @@
 
 "Rectange"
    
-a program that asks the user for an integer and then prints out all its factors.
+ a program that draws a rectangle with stars, given the number of rows and columns.
 */
 import java.util.*;
 import java.lang.*;
