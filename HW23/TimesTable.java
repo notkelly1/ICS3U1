@@ -2,7 +2,7 @@
 
 "TimesTable"
 
- a program that Creates a 2D array of characters with the specified dimensions, and initialize each element to be ‘*’.  Then prints out the content of the array as a table.
+ a program that creates a 12 times table.
  */
 import java.util.*;
 import java.lang.*;
