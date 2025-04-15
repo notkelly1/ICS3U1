@@ -15,6 +15,7 @@ public class Tennis{
       // Variable declaration and initialization of array
       int gameList[][]= new int [PLAYERS][SETS];
       int setsWonP2 = 0;
+      int gamesWonP2 = 0;
       
       // Creating Scanner
       Scanner sc = new Scanner(System.in);
@@ -34,17 +35,22 @@ public class Tennis{
       {                  
          if(gameList[0][set] < gameList[PLAYERS-1][set])
          {
-            System.out.printf("\nPlayer 2 wins round %d", set+1);
+            System.out.printf("\nPlayer 2 wins set #%d", set+1);
             setsWonP2++;
          }
          else 
          {
-            System.out.printf("\nPlayer 1 wins round %d", set+1);
+            System.out.printf("\nPlayer 1 wins set #%d", set+1);
          }           
       }
       
+      // Output the total number of games
+      for(int set = 0; set < SETS; set++)
+      {
+         gamesWonP2 += gameList[1][set];
+      }
       // Print total results
-      System.out.printf("\n\nPlayer 1 won %d games! \nPlayer 2 won %d games!", SETS-setsWonP2, setsWonP2); 
+      System.out.printf("\n\nPlayer 1 won %d sets! \nPlayer 2 won %d games!", SETS-setsWonP2, gamesWonP2); 
             
    }
 }
