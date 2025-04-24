@@ -20,16 +20,17 @@ public class AddPairs{
       num = sc.nextLine();
       
       // Isolate digits using substring, add using parseInt
-      for(int i =0; i < num.length(); i+=2)
+      for(int i =0; i < num.length()-1; i+=2)
       {
-         System.out.printf("%s + ", num.substring(i,i+2));
+         //System.out.printf("%s + ", num.substring(i,i+2));
          sumDigits += Integer.parseInt(num.substring(i,i+2));
       }
       
       // Grab last number if odd
-      if(num.length%2!=0)
+      if(num.length()%2!=0)
       {
-         sumDigits
+         //System.out.printf("%s ", num.substring(num.length()-1));
+         sumDigits += Integer.parseInt(num.substring(num.length()-1));
       }
       
       // Print sum
