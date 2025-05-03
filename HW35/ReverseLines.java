@@ -24,13 +24,28 @@ public class ReverseLines{
          lineIn = in.readLine();
          numWords = Integer.parseInt(lineIn); // need exception
          
-           arrayWords = new String[numWords];
-               for (int i = 0; i < numWords && lineIn != null; i++) {
-                   lineIn=in.readLine(); arrayWords[i]=lineIn;
-               }
-               for (int i = 0; i < numWords; i++) {
-                   System.out.println(arrayWords[numWords-i-1]);
-               }
+         // if not at the end of file, continue reading
+         while(lineIn != null)
+         {
+            // Read the first line to determine num words and initialize array with length
+            arrayWords = new String[numWords];
+            
+            // Fill array with words using for loop 
+            for(int i = 0; i < numWords; i++)
+            {
+               lineIn = in.readLine();
+               arrayWords[i] = lineIn;
+            }  
+            
+            // print array using for loop but backwards this time   
+            for(int i = arrayWords.length - 1; i >= 0; i--)
+            {
+               System.out.println(arrayWords[i]);
+               
+            }
+         // System.out.println(arrayWords.length);
+         lineIn = in.readLine();
+         } 
          // close the file before ending the prgm
          in.close();
       }
@@ -38,7 +53,7 @@ public class ReverseLines{
       {
          System.out.println(e + "Problem reading" + FILE_NAME);
       }
-      catch(NumberFormatException e)
+      catch(NumberFormatException e) // order of exeptions? do you need another one 
       {
          System.out.println(e + "String in " + FILE_NAME + " contains non-numeric data.");
       }
