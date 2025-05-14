@@ -1,0 +1,16 @@
+The average of student 0 is 67.96000000000001
+The average of student 1 is 78.15
+The average of student 2 is 85.98
+The average of student 3 is 78.26
+The average of student 4 is 74.74000000000001
+The student with the highest average of 85.98 is student number 2
+The average for test 0 is 345.1
+The average for test 1 is 660.9000000000001
+The average for test 2 is 1101.0
+The average for test 3 is 1447.3000000000002
+The average for test 4 is 1811.0
+The average for test 5 is 2255.7
+The average for test 6 is 2658.7
+The average for test 7 is 3078.7
+The average for test 8 is 3453.6999999999994
+The average for test 9 is 3850.899999999999
